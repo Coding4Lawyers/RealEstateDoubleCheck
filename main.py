@@ -9,8 +9,7 @@ from pdf2image import convert_from_bytes
 import pytesseract
 import re
 
-load_dotenv()
-client = OpenAI(api_key=os.getenv("openai_apikey"))
+client = OpenAI(api_key=st.secrets["openai_apikey"])
 
 # def flatten_pdf(uploaded_file):
 #     with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp_file:

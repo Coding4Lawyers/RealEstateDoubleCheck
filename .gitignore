@@ -1,3 +1,4 @@
 .env
 SamplePDFs/
 venv/
+secrets.toml

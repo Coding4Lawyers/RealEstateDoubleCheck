@@ -1,0 +1,8 @@
+tesseract-ocr
+tesseract-ocr-eng
+libnss3-dev
+libgpgmepp-dev
+qtbase5-dev
+libcairo2-dev
+libboost-dev
+poppler-utils
