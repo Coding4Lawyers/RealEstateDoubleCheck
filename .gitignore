@@ -2,3 +2,4 @@
 SamplePDFs/
 venv/
 secrets.toml
+output.txt
