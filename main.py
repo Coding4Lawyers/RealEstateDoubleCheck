@@ -66,6 +66,7 @@ def main():
     if uploaded_file is not None:
         # Perform real estate double check on the uploaded PDF
         # Convert each page of the PDF into an image
+        st.write("Converting PDF to images...")
         page_images = convert_from_bytes(uploaded_file.read(), 300)  # 300 is the resolution in DPI
 
         full_text = ""
